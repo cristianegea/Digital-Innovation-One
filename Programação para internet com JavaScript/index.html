@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Minha Página</title>
+        <!-- Link com JavaScript -->
+        <script type="text/javascript" src="main.js"></script>
+    </head>
+    <body onload="load()">
+        <!-- onload="load()" => função "load()" será executada quando a página for carregada -->
+
+        <h1>Minha Página</h1>
+        
+        <button type="button" onclick="botao()">Click here</button>
+            <!-- onclick="botao()" => está chamando a função "botao()" do JavaScript -->
+            <!-- a mensagem irá aparecer como pop-up ao clicar no botão -->
+
+        <button type="button" onclick="clicou()">Clique aqui</button>
+        <h3 id="agradecimento"></h3>        
+            <!-- mensagem irá aparecer como parágrafo ao clicar no botão -->
+        
+        <button type="button" onclick="redirecionamento()">Clique para ser redirecionado para outra página</button>
+            <!-- ao clicar no botão, o usuário será redirecionado para outra página -->
+        
+        <p id="mouse" onmouseover="trocar()">Passe o mouse aqui</p>
+            <!-- a função "troca()" do javascript será executada quando o mouse passar pelo parágrado -->
+
+        <p id="mousemove" onmouseover="trocarTexto()" onmouseout="voltar()">
+            Passe o mouse aqui para mudar o texto
+        </p>
+            <!-- onmouseover="trocarTexto()" => realiza a alteração do texto 
+                 onmouseout="voltar() => faz com que a mudança do texto somente ocorra enquanto o mouse
+                                         estiver sobre o texto -->
+
+        <select onchange="functionChange(this)">
+            <option value="1">Valor 1</option>
+            <option value="2">Valor 2</option>
+            <option value="3">Valor 3</option>
+        </select>
+            <!-- sempre que o valor for selecionado, a funcão "functionChange()" será executada -->
+    </body>
+</html>

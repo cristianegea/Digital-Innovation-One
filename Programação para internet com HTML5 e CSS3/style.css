@@ -1,0 +1,43 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    color:rgb(0, 0, 51); 
+}
+
+a{
+    text-decoration: unset;
+}
+
+.standardimage {
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+.imageparceiros {
+    width: 200px;
+    margin: 5px;
+}
+
+.iconimage {
+    width: 45px;
+}
+
+#navbar {
+    background-color: black;
+    width: 100%;
+    height: 50px;
+}
+
+.list {
+    margin-top: 5px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.flex-container {
+    flex-direction: column;
+}
+

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br"> 
+    <!-- Metadados (inteligência da página) -->
+    <head>
+        <!-- conexão com Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <!-- HTML -->
+        <meta charset="utf-8">
+        <title> Minha página </title>
+        <!-- conexão com o arquivo "style.css" -->
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    </head>
+    
+    <!-- Corpo da página (o que é exibido para o usuário) -->
+    <body>
+        <!-- Menu de navegação -->
+        <nav class="site-header sticky-top py-1">
+            <div id="navbar" lass="container d-flex flex-column flex-md-row justify-content-between">
+              <a class="py-2" href="#">
+                <img src="img/page_logo.png" width="30px">
+              </a>
+              <a class="list py-2 d-none d-md-inline-block" href="#servicos"> Serviços </a>
+              <a class="list py-2 d-none d-md-inline-block" href="#clientes">Clientes</a>
+              <a class="list py-2 d-none d-md-inline-block" href="#parceiros"> Parceiros </a>
+              <a class="list py-2 d-none d-md-inline-block" href="#time"> Time </a>
+            </div>
+         </nav>
+        
+        <!-- Cabeçalho da página -->
+        <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+            <div class="col-md-5 p-lg-5 mx-auto my-5">
+              <h1 class="display-4 font-weight-normal"> Minha página </h1>
+              <p class="lead font-weight-normal">Oferecemos o desenvolvimento dos melhores sites e para a sua empresa.</p>
+            </div>
+            <div class="product-device box-shadow d-none d-md-block"></div>
+            <div class="product-device product-device-2 box-shadow d-none d-md-block"></div>
+        </div>
+        
+        <!-- Seção de conteúdos -->
+        <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+            <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                <div id="servicos" class="my-3 p-3">
+                    <h2 class="display-5">Serviços</h2>
+                    <img class="standardimage" src="img/service.jpeg">
+                    <p class="lead">Oferecemos os melhores serviços em desenvolvimento de sites e aplicativos.</p>
+                </div>
+            </div>
+            <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                <div id="clientes" class="my-3 p-3">
+                  <h2 class="display-5">Clientes</h2>
+                  <img class="standardimage" src="img/client.jpg">
+                  <p class="lead">Nossos clientes ficaram muito satisfeitos com os nossos serviços.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+            <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+              <div id="time" class="my-3 p-3">
+                <h2 class="display-5">Time</h2>
+                <img class="standardimage" src="img/team.jpeg">
+                <p class="lead">Nosso time trabalha com qualidade e empenho para entregar o melhor produto para nossos clientes.</p>
+              </div>
+            </div>
+            <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                <div id="parceiros" class="my-3 p-3">
+                    <h2 class="display-5">Parceiros</h2>
+                    <p class="lead">Nossos parceiros nos ajudam a entregar as melhores soluções para os nossos clientes.</p>
+                    <div class="flex-container">
+                        <div>
+                            <a href="https://gama.academy/" target="_blank">
+                                <img class="imageparceiros" src="img/gamaacademy_logo.png">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.codenation.dev/" target="_blank">
+                                <img class="imageparceiros" src="img/codenation_logo.png">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://digitalinnovation.one/" target="_blank">
+                                <img class="imageparceiros" src="img/dio_logo.png">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://rocketseat.com.br/" target="_blank">
+                                <img class="imageparceiros" src="img/rocketseat_logo.png">
+                            </a>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Rodapé da página -->
+        <footer id="footer" class="card border border-white">
+            <div class="card-body" style="text-align: center; font-size: 15px; margin: 5px">
+                <p> Desenvolvido por Cristiane Gea </p>
+                <ul class="list-unstyled list-inline">
+                    <li class="list-inline-item"><a href="#"><i class="fas fa-envelope"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fab fa-github"></i></a></li>
+                </ul>
+            </div>
+        </footer>
+
+        <!-- JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+    
+</html>
