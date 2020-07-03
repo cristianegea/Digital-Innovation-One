@@ -1,7 +1,6 @@
-# Curso_Python_Pandas_
- Repositório do Curso Introdutório de Python para análise de dados com Python e Pandas.
+# Análise de dados com Python e Pandas.
  
-## **Assuntos abordados neste curso**:
+## **Assuntos abordados**:
  Python Básico
  Estrutura de dados
  Introdução a Biblioteca Pandas
